@@ -2,36 +2,85 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>JQUERY PRACTISE</title>
+    <title>FLASH CARDS</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="flash.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="flash.js"></script>
   </head>
   <body>
+    <section class="sec1">
+      <a href="#first" id="sec1">LEARN JAVASCRIPT</a>
+    </section>
     <div class="container">
-       <p id="trial"><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent children's pastime, you may change your mind when you learn of its treacherous history.</p>
-      <div class="etana-hidden">
-        <p>Lets play peek-a-boo.<span class="clickable">Click here</span> to see the surprise</p>
+      <button id="themes">THEMES</button>
+      <h1 class="muted" id="first">THE LANGUAGE OF THE <span>WEB</span></h1>
+      <h2>CLICK THE <span id="second">BUTTONS</span> TO LEARN</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <button type="button" name="button" class="btn btn-warning" id="js">JAVASCRIPT</button>
+            </div>
+            <div>
+              <p id="java">If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It might be a bit annoying but you could tell them that that discussion would be best suited for another time. At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don’t.</p>
+            </div>
+            </div>
+          </div>
+      <div class="col-md-4">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <button type="button" name="button" class="btn btn-success" id="fun">FUNCTIONS</button>
+          </div>
+          <div>
+            <p id="function">If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It might be a bit annoying but you could tell them that that discussion would be best suited for another time. At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don’t.</p>
+          </div>
+          </div>
       </div>
-      <div class="etana-showing">
-        <p>what a cute woman.<span class="clickable">Click here</span> to see her again</p>
-        <img src="images/etana.jpg" alt="">
+      <div class="col-md-4">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <button type="button" name="button" class="btn btn-primary" id="var">VARIABLES</button>
+          </div>
+          <div>
+            <p id="vardef">If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It might be a bit annoying but you could tell them that that discussion would be best suited for another time. At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don’t.</p>
+          </div>
+          </div>
       </div>
-      <button type="button" name="button">Click to see etana images</button>
-    <div class="test">
-      <img src="https://i.pinimg.com/originals/fb/c4/80/fbc4804bcaefc5352a9ddc4f4e8fcd85.jpg" alt="" id="first">
-      <img src="https://www.reggaeville.com/fileadmin/user_upload/etana.jpg" alt="" id="second">
-</div>
-<div class="">
-  <h1>What's your favorite color?</h1>
-  <p>Click a button to choose what color you'd like this page to be:</p>
+      </div>
 
-  <button class="btn btn-success" id="green">Green</button>
-  <button class="btn btn-warning" id="yellow">Yellow</button>
-  <button class="btn btn-danger" id="red">Red</button>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-</div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <button type="button" name="button" class="btn btn-info" id="str">STRINGS</button>
+            </div>
+            <div>
+              <p id="stringsdef">If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It might be a bit annoying but you could tell them that that discussion would be best suited for another time. At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don’t.</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <button type="button" name="button" class="btn btn-warning" id="try">TRIAL</button>
+            </div>
+            <div>
+              <p id="trial">If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It might be a bit annoying but you could tell them that that discussion would be best suited for another time. At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don’t.</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <button type="button" name="button" class="btn btn-success" id="meth">METHODS</button>
+            </div>
+            <div>
+              <p id="methods">If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It might be a bit annoying but you could tell them that that discussion would be best suited for another time. At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don’t.</p>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
